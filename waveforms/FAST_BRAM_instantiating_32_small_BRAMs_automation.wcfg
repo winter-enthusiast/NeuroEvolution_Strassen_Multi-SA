@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="top_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="top_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="198.519 ns"></ZoomEndTime>
+      <Cursor1Time time="80.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="364"></NameColumnWidth>
+      <ValueColumnWidth column_width="141"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="37" />
+   <wave_markers>
+      <marker label="" time="20000" />
+   </wave_markers>
+   <wvobject type="logic" fp_name="/top_tb/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_tb/rst">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_tb/start">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_tb/C">
+      <obj_property name="ElementShortName">C[0:15][0:15][15:0]</obj_property>
+      <obj_property name="ObjectShortName">C[0:15][0:15][15:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_tb/done">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_tb/uut/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_tb/uut/rst">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_tb/uut/start">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_tb/uut/done">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_tb/uut/state">
+      <obj_property name="ElementShortName">state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">state[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_tb/uut/next_state">
+      <obj_property name="ElementShortName">next_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_tb/uut/A">
+      <obj_property name="ElementShortName">A[0:15][0:15][7:0]</obj_property>
+      <obj_property name="ObjectShortName">A[0:15][0:15][7:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_tb/uut/B">
+      <obj_property name="ElementShortName">B[0:15][0:15][7:0]</obj_property>
+      <obj_property name="ObjectShortName">B[0:15][0:15][7:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_tb/uut/ena_a">
+      <obj_property name="ElementShortName">ena_a[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ena_a[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_tb/uut/ena_b">
+      <obj_property name="ElementShortName">ena_b[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ena_b[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_tb/uut/wea_a">
+      <obj_property name="ElementShortName">wea_a[15:0]</obj_property>
+      <obj_property name="ObjectShortName">wea_a[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_tb/uut/wea_b">
+      <obj_property name="ElementShortName">wea_b[15:0]</obj_property>
+      <obj_property name="ObjectShortName">wea_b[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_tb/uut/addra_a">
+      <obj_property name="ElementShortName">addra_a[15:0][3:0]</obj_property>
+      <obj_property name="ObjectShortName">addra_a[15:0][3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="array" fp_name="/top_tb/uut/addra_a[15]">
+         <obj_property name="ElementShortName">[15][3:0]</obj_property>
+         <obj_property name="ObjectShortName">[15][3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top_tb/uut/addra_a[14]">
+         <obj_property name="ElementShortName">[14][3:0]</obj_property>
+         <obj_property name="ObjectShortName">[14][3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top_tb/uut/addra_a[13]">
+         <obj_property name="ElementShortName">[13][3:0]</obj_property>
+         <obj_property name="ObjectShortName">[13][3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top_tb/uut/addra_a[12]">
+         <obj_property name="ElementShortName">[12][3:0]</obj_property>
+         <obj_property name="ObjectShortName">[12][3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top_tb/uut/addra_a[11]">
+         <obj_property name="ElementShortName">[11][3:0]</obj_property>
+         <obj_property name="ObjectShortName">[11][3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top_tb/uut/addra_a[10]">
+         <obj_property name="ElementShortName">[10][3:0]</obj_property>
+         <obj_property name="ObjectShortName">[10][3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top_tb/uut/addra_a[9]">
+         <obj_property name="ElementShortName">[9][3:0]</obj_property>
+         <obj_property name="ObjectShortName">[9][3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top_tb/uut/addra_a[8]">
+         <obj_property name="ElementShortName">[8][3:0]</obj_property>
+         <obj_property name="ObjectShortName">[8][3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top_tb/uut/addra_a[7]">
+         <obj_property name="ElementShortName">[7][3:0]</obj_property>
+         <obj_property name="ObjectShortName">[7][3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top_tb/uut/addra_a[6]">
+         <obj_property name="ElementShortName">[6][3:0]</obj_property>
+         <obj_property name="ObjectShortName">[6][3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top_tb/uut/addra_a[5]">
+         <obj_property name="ElementShortName">[5][3:0]</obj_property>
+         <obj_property name="ObjectShortName">[5][3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top_tb/uut/addra_a[4]">
+         <obj_property name="ElementShortName">[4][3:0]</obj_property>
+         <obj_property name="ObjectShortName">[4][3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top_tb/uut/addra_a[3]">
+         <obj_property name="ElementShortName">[3][3:0]</obj_property>
+         <obj_property name="ObjectShortName">[3][3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top_tb/uut/addra_a[2]">
+         <obj_property name="ElementShortName">[2][3:0]</obj_property>
+         <obj_property name="ObjectShortName">[2][3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top_tb/uut/addra_a[1]">
+         <obj_property name="ElementShortName">[1][3:0]</obj_property>
+         <obj_property name="ObjectShortName">[1][3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top_tb/uut/addra_a[0]">
+         <obj_property name="ElementShortName">[0][3:0]</obj_property>
+         <obj_property name="ObjectShortName">[0][3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_tb/uut/addra_b">
+      <obj_property name="ElementShortName">addra_b[15:0][3:0]</obj_property>
+      <obj_property name="ObjectShortName">addra_b[15:0][3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="array" fp_name="/top_tb/uut/addra_b[15]">
+         <obj_property name="ElementShortName">[15][3:0]</obj_property>
+         <obj_property name="ObjectShortName">[15][3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top_tb/uut/addra_b[14]">
+         <obj_property name="ElementShortName">[14][3:0]</obj_property>
+         <obj_property name="ObjectShortName">[14][3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top_tb/uut/addra_b[13]">
+         <obj_property name="ElementShortName">[13][3:0]</obj_property>
+         <obj_property name="ObjectShortName">[13][3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top_tb/uut/addra_b[12]">
+         <obj_property name="ElementShortName">[12][3:0]</obj_property>
+         <obj_property name="ObjectShortName">[12][3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top_tb/uut/addra_b[11]">
+         <obj_property name="ElementShortName">[11][3:0]</obj_property>
+         <obj_property name="ObjectShortName">[11][3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top_tb/uut/addra_b[10]">
+         <obj_property name="ElementShortName">[10][3:0]</obj_property>
+         <obj_property name="ObjectShortName">[10][3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top_tb/uut/addra_b[9]">
+         <obj_property name="ElementShortName">[9][3:0]</obj_property>
+         <obj_property name="ObjectShortName">[9][3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top_tb/uut/addra_b[8]">
+         <obj_property name="ElementShortName">[8][3:0]</obj_property>
+         <obj_property name="ObjectShortName">[8][3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top_tb/uut/addra_b[7]">
+         <obj_property name="ElementShortName">[7][3:0]</obj_property>
+         <obj_property name="ObjectShortName">[7][3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top_tb/uut/addra_b[6]">
+         <obj_property name="ElementShortName">[6][3:0]</obj_property>
+         <obj_property name="ObjectShortName">[6][3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top_tb/uut/addra_b[5]">
+         <obj_property name="ElementShortName">[5][3:0]</obj_property>
+         <obj_property name="ObjectShortName">[5][3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top_tb/uut/addra_b[4]">
+         <obj_property name="ElementShortName">[4][3:0]</obj_property>
+         <obj_property name="ObjectShortName">[4][3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top_tb/uut/addra_b[3]">
+         <obj_property name="ElementShortName">[3][3:0]</obj_property>
+         <obj_property name="ObjectShortName">[3][3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top_tb/uut/addra_b[2]">
+         <obj_property name="ElementShortName">[2][3:0]</obj_property>
+         <obj_property name="ObjectShortName">[2][3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top_tb/uut/addra_b[1]">
+         <obj_property name="ElementShortName">[1][3:0]</obj_property>
+         <obj_property name="ObjectShortName">[1][3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/top_tb/uut/addra_b[0]">
+         <obj_property name="ElementShortName">[0][3:0]</obj_property>
+         <obj_property name="ObjectShortName">[0][3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_tb/uut/dina">
+      <obj_property name="ElementShortName">dina[2:0]</obj_property>
+      <obj_property name="ObjectShortName">dina[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_tb/uut/dout_a">
+      <obj_property name="ElementShortName">dout_a[15:0][2:0]</obj_property>
+      <obj_property name="ObjectShortName">dout_a[15:0][2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_tb/uut/dout_b">
+      <obj_property name="ElementShortName">dout_b[15:0][2:0]</obj_property>
+      <obj_property name="ObjectShortName">dout_b[15:0][2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_tb/uut/i">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_tb/uut/j">
+      <obj_property name="ElementShortName">j[31:0]</obj_property>
+      <obj_property name="ObjectShortName">j[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_tb/uut/k">
+      <obj_property name="ElementShortName">k[31:0]</obj_property>
+      <obj_property name="ObjectShortName">k[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_tb/uut/douta_1">
+      <obj_property name="ElementShortName">douta_1[2:0]</obj_property>
+      <obj_property name="ObjectShortName">douta_1[2:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_tb/uut/addra_1">
+      <obj_property name="ElementShortName">addra_1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">addra_1[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_tb/uut/ena_1">
+      <obj_property name="ElementShortName">ena_1</obj_property>
+      <obj_property name="ObjectShortName">ena_1</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_tb/uut/wea_1">
+      <obj_property name="ElementShortName">wea_1</obj_property>
+      <obj_property name="ObjectShortName">wea_1</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_tb/uut/read_addr_d1">
+      <obj_property name="ElementShortName">read_addr_d1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">read_addr_d1[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_tb/uut/read_addr_d2">
+      <obj_property name="ElementShortName">read_addr_d2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">read_addr_d2[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_tb/uut/read_addr">
+      <obj_property name="ElementShortName">read_addr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">read_addr[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_tb/uut/row_counter_d1">
+      <obj_property name="ElementShortName">row_counter_d1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">row_counter_d1[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_tb/uut/row_counter_d2">
+      <obj_property name="ElementShortName">row_counter_d2[3:0]</obj_property>
+      <obj_property name="ObjectShortName">row_counter_d2[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_tb/uut/col_counter_d1">
+      <obj_property name="ElementShortName">col_counter_d1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">col_counter_d1[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_tb/uut/col_counter_d2">
+      <obj_property name="ElementShortName">col_counter_d2[3:0]</obj_property>
+      <obj_property name="ObjectShortName">col_counter_d2[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_tb/uut/loading_matrices_done">
+      <obj_property name="ElementShortName">loading_matrices_done</obj_property>
+      <obj_property name="ObjectShortName">loading_matrices_done</obj_property>
+   </wvobject>
+</wave_config>

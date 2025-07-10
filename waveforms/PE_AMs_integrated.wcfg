@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_PE_systolic_array_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="\$unit_PE_sv_1840183057 " />
+            <top_module name="glbl" />
+            <top_module name="tb_PE_systolic_array" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.077 ns"></ZoomStartTime>
+      <ZoomEndTime time="85.028 ns"></ZoomEndTime>
+      <Cursor1Time time="37.777 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="285"></NameColumnWidth>
+      <ValueColumnWidth column_width="178"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="66" />
+   <wvobject fp_name="divider232" type="divider">
+      <obj_property name="label">1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_PE_systolic_array/pe1/rst">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_PE_systolic_array/pe1/a">
+      <obj_property name="ElementShortName">a[7:0]</obj_property>
+      <obj_property name="ObjectShortName">a[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_PE_systolic_array/pe1/b">
+      <obj_property name="ElementShortName">b[7:0]</obj_property>
+      <obj_property name="ObjectShortName">b[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_PE_systolic_array/pe1/C_out">
+      <obj_property name="ElementShortName">C_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">C_out[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_PE_systolic_array/pe1/fast_clk">
+      <obj_property name="ElementShortName">fast_clk</obj_property>
+      <obj_property name="ObjectShortName">fast_clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_PE_systolic_array/pe1/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_PE_systolic_array/pe1/counter_for_exact_mult_usage">
+      <obj_property name="ElementShortName">counter_for_exact_mult_usage[1:0]</obj_property>
+      <obj_property name="ObjectShortName">counter_for_exact_mult_usage[1:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_PE_systolic_array/pe1/partial_sum">
+      <obj_property name="ElementShortName">partial_sum[15:0]</obj_property>
+      <obj_property name="ObjectShortName">partial_sum[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group245">
+      <obj_property name="label">Exact</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="array" fp_name="/tb_PE_systolic_array/pe1/input_to_a">
+         <obj_property name="ElementShortName">input_to_a[3:0]</obj_property>
+         <obj_property name="ObjectShortName">input_to_a[3:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_PE_systolic_array/pe1/input_to_b">
+         <obj_property name="ElementShortName">input_to_b[3:0]</obj_property>
+         <obj_property name="ObjectShortName">input_to_b[3:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_PE_systolic_array/pe1/exact_mult_result">
+         <obj_property name="ElementShortName">exact_mult_result[7:0]</obj_property>
+         <obj_property name="ObjectShortName">exact_mult_result[7:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_PE_systolic_array/pe1/c">
+      <obj_property name="ElementShortName">c[7:0]</obj_property>
+      <obj_property name="ObjectShortName">c[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_PE_systolic_array/pe1/d">
+      <obj_property name="ElementShortName">d[7:0]</obj_property>
+      <obj_property name="ObjectShortName">d[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_PE_systolic_array/pe1/a_abs">
+      <obj_property name="ElementShortName">a_abs[7:0]</obj_property>
+      <obj_property name="ObjectShortName">a_abs[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_PE_systolic_array/pe1/b_abs">
+      <obj_property name="ElementShortName">b_abs[7:0]</obj_property>
+      <obj_property name="ObjectShortName">b_abs[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_PE_systolic_array/pe1/a_sign">
+      <obj_property name="ElementShortName">a_sign</obj_property>
+      <obj_property name="ObjectShortName">a_sign</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_PE_systolic_array/pe1/b_sign">
+      <obj_property name="ElementShortName">b_sign</obj_property>
+      <obj_property name="ObjectShortName">b_sign</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_PE_systolic_array/pe1/result_sign">
+      <obj_property name="ElementShortName">result_sign</obj_property>
+      <obj_property name="ObjectShortName">result_sign</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_PE_systolic_array/pe1/aL">
+      <obj_property name="ElementShortName">aL[3:0]</obj_property>
+      <obj_property name="ObjectShortName">aL[3:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_PE_systolic_array/pe1/bL">
+      <obj_property name="ElementShortName">bL[3:0]</obj_property>
+      <obj_property name="ObjectShortName">bL[3:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_PE_systolic_array/pe1/aH">
+      <obj_property name="ElementShortName">aH[3:0]</obj_property>
+      <obj_property name="ObjectShortName">aH[3:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_PE_systolic_array/pe1/bH">
+      <obj_property name="ElementShortName">bH[3:0]</obj_property>
+      <obj_property name="ObjectShortName">bH[3:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_PE_systolic_array/pe1/DATA_WIDTH">
+      <obj_property name="ElementShortName">DATA_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_WIDTH[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider231" type="divider">
+      <obj_property name="label">2</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_PE_systolic_array/pe2/rst">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_PE_systolic_array/pe2/a">
+      <obj_property name="ElementShortName">a[7:0]</obj_property>
+      <obj_property name="ObjectShortName">a[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_PE_systolic_array/pe2/b">
+      <obj_property name="ElementShortName">b[7:0]</obj_property>
+      <obj_property name="ObjectShortName">b[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_PE_systolic_array/pe2/C_out">
+      <obj_property name="ElementShortName">C_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">C_out[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_PE_systolic_array/pe2/fast_clk">
+      <obj_property name="ElementShortName">fast_clk</obj_property>
+      <obj_property name="ObjectShortName">fast_clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_PE_systolic_array/pe2/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_PE_systolic_array/pe2/partial_sum">
+      <obj_property name="ElementShortName">partial_sum[15:0]</obj_property>
+      <obj_property name="ObjectShortName">partial_sum[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_PE_systolic_array/pe2/counter_for_exact_mult_usage">
+      <obj_property name="ElementShortName">counter_for_exact_mult_usage[1:0]</obj_property>
+      <obj_property name="ObjectShortName">counter_for_exact_mult_usage[1:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group246">
+      <obj_property name="label">Exact</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="array" fp_name="/tb_PE_systolic_array/pe2/input_to_a">
+         <obj_property name="ElementShortName">input_to_a[3:0]</obj_property>
+         <obj_property name="ObjectShortName">input_to_a[3:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_PE_systolic_array/pe2/exact_mult_result">
+         <obj_property name="ElementShortName">exact_mult_result[7:0]</obj_property>
+         <obj_property name="ObjectShortName">exact_mult_result[7:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_PE_systolic_array/pe2/input_to_b">
+         <obj_property name="ElementShortName">input_to_b[3:0]</obj_property>
+         <obj_property name="ObjectShortName">input_to_b[3:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_PE_systolic_array/pe2/c">
+      <obj_property name="ElementShortName">c[7:0]</obj_property>
+      <obj_property name="ObjectShortName">c[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_PE_systolic_array/pe2/d">
+      <obj_property name="ElementShortName">d[7:0]</obj_property>
+      <obj_property name="ObjectShortName">d[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_PE_systolic_array/pe2/a_abs">
+      <obj_property name="ElementShortName">a_abs[7:0]</obj_property>
+      <obj_property name="ObjectShortName">a_abs[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_PE_systolic_array/pe2/b_abs">
+      <obj_property name="ElementShortName">b_abs[7:0]</obj_property>
+      <obj_property name="ObjectShortName">b_abs[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_PE_systolic_array/pe2/a_sign">
+      <obj_property name="ElementShortName">a_sign</obj_property>
+      <obj_property name="ObjectShortName">a_sign</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_PE_systolic_array/pe2/b_sign">
+      <obj_property name="ElementShortName">b_sign</obj_property>
+      <obj_property name="ObjectShortName">b_sign</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_PE_systolic_array/pe2/result_sign">
+      <obj_property name="ElementShortName">result_sign</obj_property>
+      <obj_property name="ObjectShortName">result_sign</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_PE_systolic_array/pe2/aL">
+      <obj_property name="ElementShortName">aL[3:0]</obj_property>
+      <obj_property name="ObjectShortName">aL[3:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_PE_systolic_array/pe2/bL">
+      <obj_property name="ElementShortName">bL[3:0]</obj_property>
+      <obj_property name="ObjectShortName">bL[3:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_PE_systolic_array/pe2/aH">
+      <obj_property name="ElementShortName">aH[3:0]</obj_property>
+      <obj_property name="ObjectShortName">aH[3:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_PE_systolic_array/pe2/bH">
+      <obj_property name="ElementShortName">bH[3:0]</obj_property>
+      <obj_property name="ObjectShortName">bH[3:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_PE_systolic_array/pe2/DATA_WIDTH">
+      <obj_property name="ElementShortName">DATA_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_WIDTH[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider233" type="divider">
+      <obj_property name="label">3</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_PE_systolic_array/pe0/a">
+      <obj_property name="ElementShortName">a[7:0]</obj_property>
+      <obj_property name="ObjectShortName">a[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_PE_systolic_array/pe0/b">
+      <obj_property name="ElementShortName">b[7:0]</obj_property>
+      <obj_property name="ObjectShortName">b[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_PE_systolic_array/pe0/C_out">
+      <obj_property name="ElementShortName">C_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">C_out[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_PE_systolic_array/pe0/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_PE_systolic_array/pe0/rst">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_PE_systolic_array/pe0/fast_clk">
+      <obj_property name="ElementShortName">fast_clk</obj_property>
+      <obj_property name="ObjectShortName">fast_clk</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_PE_systolic_array/pe0/counter_for_exact_mult_usage">
+      <obj_property name="ElementShortName">counter_for_exact_mult_usage[1:0]</obj_property>
+      <obj_property name="ObjectShortName">counter_for_exact_mult_usage[1:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_PE_systolic_array/pe0/partial_sum">
+      <obj_property name="ElementShortName">partial_sum[15:0]</obj_property>
+      <obj_property name="ObjectShortName">partial_sum[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group234">
+      <obj_property name="label">Exact_mult_sig</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="array" fp_name="/tb_PE_systolic_array/pe0/input_to_a">
+         <obj_property name="ElementShortName">input_to_a[3:0]</obj_property>
+         <obj_property name="ObjectShortName">input_to_a[3:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_PE_systolic_array/pe0/input_to_b">
+         <obj_property name="ElementShortName">input_to_b[3:0]</obj_property>
+         <obj_property name="ObjectShortName">input_to_b[3:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_PE_systolic_array/pe0/exact_mult_result">
+         <obj_property name="ElementShortName">exact_mult_result[7:0]</obj_property>
+         <obj_property name="ObjectShortName">exact_mult_result[7:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_PE_systolic_array/pe0/a_sign">
+      <obj_property name="ElementShortName">a_sign</obj_property>
+      <obj_property name="ObjectShortName">a_sign</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_PE_systolic_array/pe0/b_sign">
+      <obj_property name="ElementShortName">b_sign</obj_property>
+      <obj_property name="ObjectShortName">b_sign</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_PE_systolic_array/pe0/result_sign">
+      <obj_property name="ElementShortName">result_sign</obj_property>
+      <obj_property name="ObjectShortName">result_sign</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_PE_systolic_array/pe0/aH">
+      <obj_property name="ElementShortName">aH[3:0]</obj_property>
+      <obj_property name="ObjectShortName">aH[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_PE_systolic_array/pe0/a_abs">
+      <obj_property name="ElementShortName">a_abs[7:0]</obj_property>
+      <obj_property name="ObjectShortName">a_abs[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_PE_systolic_array/pe0/b_abs">
+      <obj_property name="ElementShortName">b_abs[7:0]</obj_property>
+      <obj_property name="ObjectShortName">b_abs[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_PE_systolic_array/pe0/aL">
+      <obj_property name="ElementShortName">aL[3:0]</obj_property>
+      <obj_property name="ObjectShortName">aL[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_PE_systolic_array/pe0/bH">
+      <obj_property name="ElementShortName">bH[3:0]</obj_property>
+      <obj_property name="ObjectShortName">bH[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_PE_systolic_array/pe0/bL">
+      <obj_property name="ElementShortName">bL[3:0]</obj_property>
+      <obj_property name="ObjectShortName">bL[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_PE_systolic_array/pe0/c">
+      <obj_property name="ElementShortName">c[7:0]</obj_property>
+      <obj_property name="ObjectShortName">c[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_PE_systolic_array/pe0/d">
+      <obj_property name="ElementShortName">d[7:0]</obj_property>
+      <obj_property name="ObjectShortName">d[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_PE_systolic_array/pe0/DATA_WIDTH">
+      <obj_property name="ElementShortName">DATA_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_WIDTH[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

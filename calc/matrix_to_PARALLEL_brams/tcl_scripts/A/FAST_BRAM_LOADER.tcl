@@ -1,0 +1,16 @@
+source tcl_scripts/A/create_A_11_11.tcl
+source tcl_scripts/A/create_A_11_12.tcl
+source tcl_scripts/A/create_A_11_21.tcl
+source tcl_scripts/A/create_A_11_22.tcl
+source tcl_scripts/A/create_A_12_11.tcl
+source tcl_scripts/A/create_A_12_12.tcl
+source tcl_scripts/A/create_A_12_21.tcl
+source tcl_scripts/A/create_A_12_22.tcl
+source tcl_scripts/A/create_A_21_11.tcl
+source tcl_scripts/A/create_A_21_12.tcl
+source tcl_scripts/A/create_A_21_21.tcl
+source tcl_scripts/A/create_A_21_22.tcl
+source tcl_scripts/A/create_A_22_11.tcl
+source tcl_scripts/A/create_A_22_12.tcl
+source tcl_scripts/A/create_A_22_21.tcl
+source tcl_scripts/A/create_A_22_22.tcl

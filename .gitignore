@@ -1,0 +1,43 @@
+# Ignore all data, output_image, input_image, and modules directories anywhere in the project
+data/
+output_image/
+input_image/
+modules/
+filters/
+
+
+# Ignore common build and dependency files
+*.npy
+*.o
+*.obj
+*.exe
+*.out
+*.log
+*.pyc
+__pycache__/
+build/
+dist/
+*.so
+*.dll
+*.dylib
+
+# Ignore libfiles inside the global directory
+/global/libfiles/
+
+
+# Ignore these directories recursively, no matter where they appear
+**/data/
+**/output_image/
+**/input_image/
+**/filters
+**/modules/
+**/netlists/
+
+
+
+calc/PE_gens/PE_groups.sv
+calc/PE_gens/systolic_array.sv
+nuero_evolution/vae_training/.ipynb_checkpoints
+nuero_evolution/vae_training/categorical_checkpoints
+nuero_evolution/vae_training/categorical_vae_models
+res/1.ipynb
