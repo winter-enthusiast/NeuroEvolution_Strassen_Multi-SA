@@ -8,6 +8,8 @@ filters/
 
 # Ignore common build and dependency files
 *.npy
+*.pth
+*.pt
 *.o
 *.obj
 *.exe

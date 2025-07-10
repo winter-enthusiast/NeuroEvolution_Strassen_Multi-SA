@@ -1,1 +1,0 @@
-/home/nira/Documents/code/ece/vivado_projects/fast_BRAMs/fast_BRAMs.srcs/sources_1/new/top.sv

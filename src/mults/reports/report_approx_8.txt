@@ -1,0 +1,117 @@
+
+6. Printing statistics.
+
+=== Compressor_4_2_Table_4 ===
+
+   Number of wires:                  6
+   Number of wire bits:              6
+   Number of public wires:           6
+   Number of public wire bits:       6
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  2
+     OR2x2_ASAP7_75t_R               2
+
+   Chip area for module '\Compressor_4_2_Table_4': 0.174960
+
+=== Compressor_4_2_Table_5 ===
+
+   Number of wires:                  6
+   Number of wire bits:              6
+   Number of public wires:           6
+   Number of public wire bits:       6
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  2
+     AO22x1_ASAP7_75t_R              1
+     OR3x1_ASAP7_75t_R               1
+
+   Chip area for module '\Compressor_4_2_Table_5': 0.218700
+
+=== Compressor_4_2_Table_6 ===
+
+   Number of wires:                  6
+   Number of wire bits:              6
+   Number of public wires:           6
+   Number of public wire bits:       6
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  2
+     AO21x1_ASAP7_75t_R              1
+     OR3x1_ASAP7_75t_R               1
+
+   Chip area for module '\Compressor_4_2_Table_6': 0.174960
+
+=== approx_8 ===
+
+   Number of wires:                 33
+   Number of wire bits:             46
+   Number of public wires:          28
+   Number of public wire bits:      41
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 25
+     AND2x2_ASAP7_75t_R              8
+     AND4x1_ASAP7_75t_R              2
+     AO22x1_ASAP7_75t_R              2
+     Compressor_4_2_Table_4          1
+     Compressor_4_2_Table_5          1
+     Compressor_4_2_Table_6          1
+     NAND2xp33_ASAP7_75t_R           6
+     OAI22xp33_ASAP7_75t_R           1
+     half_adder                      3
+
+   Area for cell type \half_adder is unknown!
+   Area for cell type \Compressor_4_2_Table_4 is unknown!
+   Area for cell type \Compressor_4_2_Table_5 is unknown!
+   Area for cell type \Compressor_4_2_Table_6 is unknown!
+
+   Chip area for module '\approx_8': 1.603800
+
+=== half_adder ===
+
+   Number of wires:                  4
+   Number of wire bits:              4
+   Number of public wires:           4
+   Number of public wire bits:       4
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  2
+     AND2x2_ASAP7_75t_R              1
+     XOR2xp5_ASAP7_75t_R             1
+
+   Chip area for module '\half_adder': 0.218700
+
+=== design hierarchy ===
+
+   approx_8                          1
+     Compressor_4_2_Table_4          1
+     Compressor_4_2_Table_5          1
+     Compressor_4_2_Table_6          1
+     half_adder                      3
+
+   Number of wires:                 63
+   Number of wire bits:             76
+   Number of public wires:          58
+   Number of public wire bits:      71
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 31
+     AND2x2_ASAP7_75t_R             11
+     AND4x1_ASAP7_75t_R              2
+     AO21x1_ASAP7_75t_R              1
+     AO22x1_ASAP7_75t_R              3
+     NAND2xp33_ASAP7_75t_R           6
+     OAI22xp33_ASAP7_75t_R           1
+     OR2x2_ASAP7_75t_R               2
+     OR3x1_ASAP7_75t_R               2
+     XOR2xp5_ASAP7_75t_R             3
+
+   Chip area for top module '\approx_8': 2.828520
+

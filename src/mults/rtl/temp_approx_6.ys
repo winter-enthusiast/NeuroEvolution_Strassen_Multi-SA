@@ -1,0 +1,17 @@
+
+# Read design
+read_verilog ./approx_6.v
+
+# Generic synthesis
+synth -top approx_6
+
+abc -liberty ./../../global/libfiles/ASAP_7nm_RVT_TT_master.lib
+
+# Clean up
+opt_clean -purge
+
+# Write netlist
+write_verilog -noattr ../netlists/approx_6_gate_level.v
+
+# Generate area report
+tee -o ../reports/report_approx_6.txt stat -liberty ./../../global/libfiles/ASAP_7nm_RVT_TT_master.lib

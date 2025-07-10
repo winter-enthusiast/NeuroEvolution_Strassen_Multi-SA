@@ -1,0 +1,26 @@
+
+6. Printing statistics.
+
+=== approx_4 ===
+
+   Number of wires:                 12
+   Number of wire bits:             25
+   Number of public wires:           3
+   Number of public wire bits:      16
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 17
+     AND2x2_ASAP7_75t_R              1
+     AO222x2_ASAP7_75t_R             1
+     AO22x1_ASAP7_75t_R              1
+     AOI21xp33_ASAP7_75t_R           1
+     AOI22xp33_ASAP7_75t_R           3
+     NAND2xp33_ASAP7_75t_R           6
+     NOR2xp33_ASAP7_75t_R            1
+     OR2x2_ASAP7_75t_R               1
+     XNOR2xp5_ASAP7_75t_R            1
+     XOR2xp5_ASAP7_75t_R             1
+
+   Chip area for module '\approx_4': 1.487160
+

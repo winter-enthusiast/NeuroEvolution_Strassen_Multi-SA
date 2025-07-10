@@ -1,0 +1,71 @@
+
+6. Printing statistics.
+
+=== approx_5 ===
+
+   Number of wires:                 22
+   Number of wire bits:             48
+   Number of public wires:           7
+   Number of public wire bits:      27
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 24
+     AND2x2_ASAP7_75t_R              2
+     MAJIxp5_ASAP7_75t_R             1
+     MAJx2_ASAP7_75t_R               2
+     NAND2xp33_ASAP7_75t_R           1
+     NOR2xp33_ASAP7_75t_R            2
+     NOR3xp33_ASAP7_75t_R            1
+     O2A1O1Ixp33_ASAP7_75t_R         1
+     OA21x2_ASAP7_75t_R              1
+     XNOR2xp5_ASAP7_75t_R            7
+     XOR2xp5_ASAP7_75t_R             2
+     mul2a                           4
+
+   Area for cell type \mul2a is unknown!
+
+   Chip area for module '\approx_5': 2.157840
+
+=== mul2a ===
+
+   Number of wires:                  3
+   Number of wire bits:              7
+   Number of public wires:           3
+   Number of public wire bits:       7
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  3
+     AND2x2_ASAP7_75t_R              2
+     AO22x1_ASAP7_75t_R              1
+
+   Chip area for module '\mul2a': 0.306180
+
+=== design hierarchy ===
+
+   approx_5                          1
+     mul2a                           4
+
+   Number of wires:                 34
+   Number of wire bits:             76
+   Number of public wires:          19
+   Number of public wire bits:      55
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 32
+     AND2x2_ASAP7_75t_R             10
+     AO22x1_ASAP7_75t_R              4
+     MAJIxp5_ASAP7_75t_R             1
+     MAJx2_ASAP7_75t_R               2
+     NAND2xp33_ASAP7_75t_R           1
+     NOR2xp33_ASAP7_75t_R            2
+     NOR3xp33_ASAP7_75t_R            1
+     O2A1O1Ixp33_ASAP7_75t_R         1
+     OA21x2_ASAP7_75t_R              1
+     XNOR2xp5_ASAP7_75t_R            7
+     XOR2xp5_ASAP7_75t_R             2
+
+   Chip area for top module '\approx_5': 3.382560
+
